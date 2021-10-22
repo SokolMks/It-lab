@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+<body>
+<section class="section">
+    <div class="section-container">
+        <div class="wrapper wrapper-sign-in">
+            <form class="section-form sign-in">
+                <p class="form-title">Sign In</p>
+                <div class="input-wrapper">
+                    <svg width="24" height="24" class="input-icon">
+                        <use href="./images/sprite.svg#icon-email"></use>
+                    </svg>
+                    <input class="input-field" type="email" placeholder="Email" name="email">
+                </div>
+                <div class="input-wrapper password">
+                    <svg width="24" height="24" class="input-icon">
+                        <use href="./images/sprite.svg#icon-lock"></use>
+                    </svg>
+                    <input class="input-field" type="password" placeholder="Password" name="pass">
+                    <svg width="24" height="24" class="input-icon display-password">
+                        <use href="./images/sprite.svg#icon-eye-slash"></use>
+                    </svg>                         
+                </div>
+                <div class="section-message error">
+                    <p class="feedback-message">Password contain unsupported characters</p>
+                </div>
+                <div class="form-submit">
+                    <button class="form-submit-btn" type="submit">
+                        Sign in
+                        <svg width="24" height="24" class="form-submit-icon">
+                            <use href="./images/sprite.svg#icon-angle-right"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="section-button">
+                <a href="#" class="section-buttons-forgot">Forgot password?</a>
+                <div class="section-text">
+                    <p class="section-text-reminder">Don’t have an account?</p>
+                    <a class="section-text-link" href="#">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
