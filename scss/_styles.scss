@@ -1,18 +1,18 @@
-@import "common";
-@import "fonts";
-@import "mixins";
-@import "reset";
+
 :root {
   --primary-text-color: #202225;
   --secondary-text-color: #a1abc9;
   --primary-background-color: #f9faff;
   --secondary-background-color: #7297ff;
+  --border-color: #dce0ec;
   --white-color: #ffffff
   --error-color: #f6657f;
 }
+
 @media (max-width: 767px) {
   .section {
     flex-direction: column;
+
     &-container {
       background-image: url("../images/phone/bg-phone.jpg");
     }
@@ -29,7 +29,6 @@
       @include font(Poppins, 400, 13px, 120%);
       align-items: center;
       justify-content: center;
-      width: 368px;
       margin-bottom: 32px;
     }
     &-button {
@@ -336,4 +335,3 @@
     left: 320px;
   }
 }
-
