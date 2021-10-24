@@ -94,7 +94,8 @@ h6 {
   position: relative; }
   .section-container {
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 1; }
   .section-form {
     display: flex;
@@ -415,7 +416,7 @@ h6 {
   .section {
     flex-direction: row;
     justify-content: center;
-    align-items: center; }
+    height: 100%; }
     .section-container {
       display: flex;
       flex-direction: row-reverse; }
